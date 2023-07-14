@@ -5,8 +5,10 @@ import { Fragment } from 'react';
 const Rightbar = () => {
     return (
         <Fragment>
-            <Box bgcolor={'pink'} flex={2} p={2} sx={{display:{xs:"none",sm:"block"}}}>
+            <Box flex={2} p={2} sx={{display:{xs:"none",sm:"block"}}}>
+                <Box position={'fixed'}>
                 rightbar
+                </Box>
             </Box>
         </Fragment>
     );
